@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectmonitoring">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".laporan.LaporanDetailCetakLaporanSelesai" />
+        <activity android:name=".laporan.LaporanDetailCetakPengeluaranDana" />
+        <activity android:name=".transaksi.TransaksiListButuhBarang" />
+        <activity android:name=".transaksi.TransaksiDetailKendala" />
+        <activity android:name=".transaksi.TransaksiTampilSemuaKendala" />
+        <activity android:name=".master.MasterDetailKaryawan" />
+        <activity android:name=".master.MasterTampilSemuaKaryawan" />
+        <activity android:name=".master.MasterKaryawan" />
+        <activity android:name=".master.MasterDetailClient" />
+        <activity android:name=".master.MasterTampilSemuaClient" />
+        <activity android:name=".master.MasterDetailBarang" />
+        <activity android:name=".ListProyek" />
+        <activity android:name=".laporan.DetailCetakKendala" />
+        <activity android:name=".laporan.LaporanSelesai" />
+        <activity android:name=".laporan.LaporanKendala" />
+        <activity android:name=".laporan.LaporanPengeluaranDana" />
+        <activity android:name=".transaksi.TransaksiDetailCetakKwitansi" />
+        <activity android:name=".transaksi.TransaksiCetakKwitansi" />
+        <activity android:name=".transaksi.TransaksiKendala" />
+        <activity android:name=".transaksi.TransaksiProyek" />
+        <activity android:name=".transaksi.TransaksiSPP" />
+        <activity android:name=".profil.Profil" />
+        <activity android:name=".laporan.Laporan" />
+        <activity android:name=".transaksi.Transaksi" />
+        <activity android:name=".master.MasterTambahKaryawan" />
+        <activity android:name=".master.MasterClient" />
+        <activity android:name=".master.MasterBarang" />
+        <activity android:name=".master.Master" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity">
+
+        </activity>
+    </application>
+
+</manifest>

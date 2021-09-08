@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Project Monitoring</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="notelp">Nomor Telepon</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="alamat">Alamat Tinggal</string>
+
+
+    <string name="txt_id_client">Nama Client</string>
+    <string name="nama_client">Nama Client</string>
+
+    <string name="rincian_penawaran">Rincian Penawaran</string>
+    <string name="tanggal_spp">Tanggal SPP</string>
+    <string name="judul_proyek">Judul Proyek</string>
+    <string name="lokasi_proyek">Lokasi</string>
+    <string name="harga_penawaran">Harga Penawaran</string>
+    <string name="keluhan">Keluhan</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="jumlah_satuan">Jumlah Satuan</string>
+    <string name="harga_satuan">Harga Satuan</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+    <string name="txt_tgl_mulai">Tanggal Mulai Proyek</string>
+    <string name="txt_tgl_selesai">Tanggal Selesai Proyek</string>
+    <string name="id_kwitansi">ID Kwitansi</string>
+    <string name="txt_tgl_kwitansi">Tanggal Kwitansi</string>
+    <string name="txt_tgl_cetak">Tanggal Cetak</string>
+    <string name="nama_proyek">Nama Proyek</string>
+    <string name="biaya_tenaga_kerja">Biaya Tenaga Kerja</string>
+
+    <string name="cetak_laporan_pengeluaran_dana">Cetak Laporan Pengeluaran Dana</string>
+    <string name="cetak_laporan_kendala">Cetak Laporan Kendala</string>
+    <string name="cetak_laporan_selesai">Cetak Laporan Proyek Selesai</string>
+
+    <string name="id_proyek">ID Proyek</string>
+    <string name="desk_kendala">Deskripsi Kendala</string>
+    <string name="desk_solusi">Deskripsi Solusi</string>
+
+    <string name="login_btn">Masuk</string>
+    <string name="register_btn">Daftar</string>
+    <string name="simpan_kendala_btn">Simpan Kendala</string>
+    <string name="lihat_semua_kendala_btn">List Kendala</string>
+    <string name="btn_hapus_data">Hapus Data</string>
+    <string name="btn_ubah_data">Ubah Data</string>
+    <string name="btn_cetak_pengeluaran_dana">Cetak Pengeluaran Dana</string>
+    <string name="btn_cetak_kwitansi">Cetak Kwitansi</string>
+
+    <string-array name="satuan">
+        <item>Meter</item>
+        <item>Centi Meter</item>
+        <item>MiliMeter</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Ons</item>
+    </string-array>
+</resources>
